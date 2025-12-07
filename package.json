@@ -1,0 +1,30 @@
+{
+  "name": "sk-dispatch",
+  "description": "SK Dispatch",
+  "version": "0.0.1",
+  "author": "Stefan Kruik",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SVKruik-Organization/Dispatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SVKruik-Organization/Dispatch/issues"
+  },
+  "homepage": "https://github.com/SVKruik-Organization/Dispatch#readme",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@svkruik/sk-platform-formatters": "^0.0.5",
+    "@svkruik/sk-uplink-connector": "^0.1.2",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
