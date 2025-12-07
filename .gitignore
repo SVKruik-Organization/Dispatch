@@ -5,3 +5,4 @@ package-lock.json
 .DS_Store
 .idea
 logs
+src/mail/out
