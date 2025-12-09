@@ -1,11 +1,11 @@
-# SK Dispatch
+# SK Dispatch - Connector
 
 [![Publish Package](https://github.com/SVKruik-Organization/Dispatch/actions/workflows/publish.yml/badge.svg)](https://github.com/SVKruik-Organization/Dispatch/actions/workflows/publish.yml)
 [![NPM Version](https://img.shields.io/npm/v/%40svkruik%2Fsk-dispatch-connector?label=%40svkruik%2Fsk-dispatch-connector&color=green)](https://www.npmjs.com/package/@svkruik/sk-dispatch-connector)
 
-This compact REST API and [Uplink](https://github.com/SVKruik-Organization/Uplink) consumer makes sending mails consistent and a breeze. Instead of all the SK Platform apps having their own approach and nuances in styling, Dispatch consolidates it into one API. Just send the filename and its replacement variables and the mail is *dispatch*ed.
+Making dispatching mails a breeze. Simplifies communication with SK Dispatch for other apps by removing boilerplate and providing stronger Intellisense.
 
-You can communicate to the API via HTTP or AMQP directly, but to further improve ease of use an NPM [package](https://www.npmjs.com/package/@svkruik/sk-dispatch-connector) is also available.
+This package is developed along-side the [server](https://github.com/SVKruik-Organization/Dispatch/tree/main/server) for tight typings and validations.
 
 ---
 
