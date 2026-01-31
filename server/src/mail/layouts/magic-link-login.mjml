@@ -1,9 +1,10 @@
 <mjml>
   <mj-head>
-    <mj-title>New Login</mj-title>
+    <mj-title>Your Link for Login</mj-title>
     <mj-attributes>
       <mj-all font-family="Open Sans" />
       <mj-text font-size="16px" line-height="24px" color="#000000" />
+      <mj-button background-color="#000000" color="#ffffff" padding="10px 20px" border-radius="5px" />
       <mj-class name="head" font-size="24px" line-height="32px" />
       <mj-class name="bold" font-weight="600" />
       <mj-class name="small" font-size="12px" line-height="16px" />
@@ -13,10 +14,12 @@
     <mj-section>
       <mj-column>
         <mj-text>Dear {{ firstName }},</mj-text>
-        <mj-text>You have just logged in to {{ platformName }} with SK Overway.</mj-text>
+        <mj-text>You requested a login link for {{ platformName }} with SK Overway.</mj-text>
+        <mj-text>Click the button below to login:</mj-text>
         <mj-spacer height="50px" />
-        <mj-text mj-class="small">If this was not you, please reset your password immediately.</mj-text>
-        <mj-text mj-class="small">If it was you, welcome back!</mj-text>
+        <mj-button href="{{ loginLink }}">Login</mj-button>
+        <mj-spacer height="50px" />
+        <mj-text mj-class="small">If the button does not work you can copy and paste the following link into your browser: {{ loginLink }}</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

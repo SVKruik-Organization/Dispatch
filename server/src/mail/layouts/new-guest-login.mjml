@@ -6,6 +6,7 @@
       <mj-text font-size="16px" line-height="24px" color="#000000" />
       <mj-class name="head" font-size="24px" line-height="32px" />
       <mj-class name="bold" font-weight="600" />
+      <mj-class name="small" font-size="12px" line-height="16px" />
     </mj-attributes>
   </mj-head>
   <mj-body>
@@ -13,6 +14,8 @@
       <mj-column>
         <mj-text>Dear {{ adminName }},</mj-text>
         <mj-text>Guest user {{ guestName }} has just logged in to {{ platformName }} with SK Overway.</mj-text>
+        <mj-spacer height="50px" />
+        <mj-text mj-class="small">If this was unexpected, please check the security of the account.</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>

@@ -7,7 +7,7 @@ export function sendMail<T extends validFileNames>(
 
 // Types
 export type validProtocols = "amqp" | "http";
-export type validFileNames = "2fa-code" | "new-guest-login" | "new-login"
+export type validFileNames = "2fa-code" | "new-guest-login" | "new-login" | "magic-link-login";
 export type ReplacementMap = {
     "2fa-code": Array<
         { key: "firstName"; value: string, },
@@ -20,6 +20,10 @@ export type ReplacementMap = {
     "new-login": Array<
         { key: "firstName"; value: string, },
         { key: "platformName"; value: string }>,
+    "magic-link-login": Array<
+        { key: "firstName"; value: string, },
+        { key: "platformName"; value: string },
+        { key: "loginLink"; value: string }>,
 };
 
 export type MailDetails<T extends validFileNames> = {

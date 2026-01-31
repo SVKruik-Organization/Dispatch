@@ -6,7 +6,8 @@ import { MailDetails, validFileNames, validProtocols } from "./types";
 const mailSubjectLookup: Record<validFileNames, string> = {
     "2fa-code": "Your 2FA Verification Code",
     "new-guest-login": "New Guest Login Notification",
-    "new-login": "New Login Alert"
+    "new-login": "New Login Alert",
+    "magic-link-login": "Your Link for Login"
 };
 
 /**

@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "path": "./",
+      "name": "Root"
+    },
+    {
+      "path": "./package",
+      "name": "Package - NPM"
+    },
+    {
+      "path": "./server",
+      "name": "Server - Fastify"
+    }
+  ],
+  "settings": {
+    "window.titleBarStyle": "custom",
+
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#ec5bb8",
+      "titleBar.activeForeground": "#ffffff",
+
+      "titleBar.inactiveBackground": "#7b2f6d",
+      "titleBar.inactiveForeground": "#f4c3e7",
+
+      "commandCenter.background": "#ec5bb8",
+      "commandCenter.foreground": "#ffffff",
+      "commandCenter.activeBackground": "#ff7fd0",
+
+      "activityBar.background": "#2a0f25",
+      "activityBar.foreground": "#ffffff",
+      "activityBar.inactiveForeground": "#d6a0c9",
+
+      "statusBar.background": "#2a0f25",
+      "statusBar.foreground": "#ffffff",
+      "statusBar.noFolderBackground": "#2a0f25",
+
+      "window.activeBorder": "#ff7fd0",
+      "window.inactiveBorder": "#2a0f25"
+    }
+  }
+}
